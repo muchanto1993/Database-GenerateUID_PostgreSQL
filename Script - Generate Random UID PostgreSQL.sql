@@ -33,7 +33,3 @@ BEGIN
   RETURN output;
 END;
 $BODY$;
-
---3 Testing Get Generate UID With Length 32
-select generate_uid(32);
-select length('ZpGwngixSWJ4CvhyX4FXliTEsOf1hd4y');
